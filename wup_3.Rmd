@@ -44,7 +44,13 @@ favstats(alcohol~Seat,data=ucdavis1)
 According to the box plot, the back row drinks 8.5 drinks a week, making this row the highest group of drinkers out of the three categories. 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+The P value represents the chance of obtaining a result like we just got, if the null hypothesis is actually true. Since the result is so small, I myself am rejecting the null hypothesis.
 
 ## Conclusions
+
 
 
