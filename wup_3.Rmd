@@ -57,4 +57,4 @@ We now need to look and see if we can discover what is different from eachother.
 
 ## Conclusions
 
-
+We can conclude in this plot that we found that there were three different categories instead of two so we had to use one way anova. We ran the anova and we saw that it said something different, that the front and middle row are pretty similar whereas the back row was completlty different from the other two rows. The median of the front was 0.0, the median of the middle was 1.0, and the back row had a median of 3.5 which is a jump from the other two rows. In conclusion, the front and middle row were almost the same whereas the back was different. 
