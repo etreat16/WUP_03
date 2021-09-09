@@ -36,6 +36,10 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+According to the box plot, the back row drinks 8.5 drinks a week, making this row the highest group of drinkers out of the three categories. 
 
 ## Inferential Tests
 
